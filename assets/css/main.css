@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #6cc091;
+		color: #5294e2;
 		text-decoration: underline;
 	}
 
@@ -1974,7 +1974,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #6cc091;
+		background: #5294e2;
 		border-radius: 10px;
 		border: none;
 		border: solid 2px #8dcca9;
@@ -2104,16 +2104,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #6cc091;
-			border-color: #6cc091;
+			background: #5294e2;
+			border-color: #5294e2;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #6cc091;
-			box-shadow: 0 0 0 1px #6cc091;
+			border-color: #5294e2;
+			box-shadow: 0 0 0 1px #5294e2;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2526,8 +2526,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #6cc091;
-		color: #6cc091 !important;
+		box-shadow: inset 0 0 0 3px #5294e2;
+		color: #5294e2 !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2641,7 +2641,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #6cc091;
+			background-color: #5294e2;
 			color: #ffffff !important;
 		}
 
@@ -2697,7 +2697,7 @@
 	}
 
 		.subpage #header {
-			background: #6cc091;
+			background: #5294e2;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2838,7 +2838,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #6cc091;
+		background: #5294e2;
 		color: #daefe3;
 		height: 100%;
 		max-width: 80%;
@@ -2928,7 +2928,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: rgba(64,69,82, 0.85);
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2960,7 +2960,7 @@
 		}
 
 		#banner .icon {
-			color: #6cc091;
+			color: #5294e2;
 			font-size: 2em;
 		}
 
@@ -3111,7 +3111,7 @@
 
 	#footer {
 		padding: 6em 0;
-		background: #6cc091;
+		background: #5294e2;
 		color: #fff;
 		text-align: center;
 	}
@@ -3153,6 +3153,123 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
+				padding: 3em 0;
+			}
+
+		}
+
+/* feature */
+
+	#feature {
+		padding: 6em 0;
+		background: #161c26;
+		color: #fff;
+		text-align: center;
+	}
+
+		#feature h3 {
+			color: #FFF;
+			margin-bottom: 2em !important;
+		}
+
+		#feature label {
+			text-align: left;
+			color: #FFF;
+		}
+
+		#feature .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			margin: 0 0 2em 0;
+			padding: 0;
+		}
+
+			#feature .copyright a {
+				color: rgba(255, 255, 255, 0.5);
+				text-decoration: none;
+			}
+
+				#feature .copyright a:hover {
+					color: #FFF;
+				}
+
+		#feature h1 {
+			font-size: 2.5em;
+			font-weight: 300;
+			color: #fff;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#feature {
+				padding: 4em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#feature {
+				padding: 3em 0;
+			}
+
+		}
+
+/* Booking */
+
+	#booking {
+		background: #383c4a;
+		color: #fff;
+	}
+
+	#booking h3 {
+			color: #FFF;
+			margin-bottom: 2em !important;
+		}
+
+		#booking label {
+			text-align: left;
+			color: #FFF;
+		}
+
+		#banner h1 {
+			font-size: 3.5em;
+			font-weight: 400;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+
+		#booking .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			margin: 0 0 2em 0;
+			padding: 0;
+		}
+
+			#booking .copyright a {
+				color: rgba(255, 255, 255, 0.5);
+				text-decoration: none;
+			}
+
+				#booking .copyright a:hover {
+					color: #FFF;
+				}
+
+		@media screen and (max-width: 980px) {
+
+			#booking {
+				padding: 4em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#booking {
 				padding: 3em 0;
 			}
 
