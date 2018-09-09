@@ -11,5 +11,4 @@ Things that have to be done:
 
 
 Exxxtra:
-	- refactor so that there isn't a 3500+ line css file
-	- add animations of WOW factor
+	- add animations
