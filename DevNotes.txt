@@ -1,0 +1,14 @@
+Things that have to be done:
+	
+	- add embedded calendar for bookings
+		Options:
+			- use google calendar
+			- be purists and create a small database to control the calendar (i suggest google)
+
+	- add youtube iFrames for featured podcast of the week
+	- add list of podcasts with logos and youtube links
+	- recolour the site (move away from light theme)
+
+
+Exxxtra:
+	- add animations
